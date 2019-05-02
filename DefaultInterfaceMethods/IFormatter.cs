@@ -2,9 +2,9 @@
 {
     interface IFormatter
     {
-        string Format(int n)
-        {
-            return n.ToString("d");
-        }
+        string Format(int n);
+        //{
+        //    return n.ToString("d");
+        //}
     }
 }
