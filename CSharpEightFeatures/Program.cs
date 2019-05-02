@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace CSharpEightFeatures
+﻿namespace CSharpEightFeatures
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var b = new BusinessLogic(new FunnyFormatter());
+
+            b.Process();
         }
     }
 }
