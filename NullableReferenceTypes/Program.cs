@@ -6,13 +6,9 @@
         {
             var bl = new BusinessLogic();
 
-            bl.Process("1234");
-            bl.Process("Adelaide");
+            bl.Process(new Entity("5000", "Postcode"));
             bl.Process(null);
-
-            string s = null;
-
-            var c = s[1];
+            bl.Process(new Entity("City", null));
         }
     }
 }
