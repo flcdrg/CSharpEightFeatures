@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultInterfaceMethods", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableReferenceTypes", "NullableReferenceTypes\NullableReferenceTypes.csproj", "{CBD0B6AC-FB32-437A-8C85-50CA2AFFFAEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicesAndRanges", "IndicesAndRanges\IndicesAndRanges.csproj", "{E2899914-E542-40B8-B5C6-5570EEDF2200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndicesAndRanges", "IndicesAndRanges\IndicesAndRanges.csproj", "{E2899914-E542-40B8-B5C6-5570EEDF2200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticLocalFunctions", "StaticLocalFunctions\StaticLocalFunctions.csproj", "{FB6ECC0E-690B-411E-AA5B-29E693050049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E2899914-E542-40B8-B5C6-5570EEDF2200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2899914-E542-40B8-B5C6-5570EEDF2200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2899914-E542-40B8-B5C6-5570EEDF2200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

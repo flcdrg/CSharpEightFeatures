@@ -6,6 +6,7 @@ namespace IndicesAndRanges
     {
         static void Main(string[] args)
         {
+            // https://github.com/dotnet/csharplang/blob/master/proposals/csharp-8.0/ranges.md
             const string name = "Adelaide .NET User Group";
 
             var location = name.Substring(0, 8);
