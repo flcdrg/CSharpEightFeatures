@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndicesAndRanges", "Indices
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticLocalFunctions", "StaticLocalFunctions\StaticLocalFunctions.csproj", "{FB6ECC0E-690B-411E-AA5B-29E693050049}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadonlyStructMembers", "ReadonlyStructMembers\ReadonlyStructMembers.csproj", "{AB2A3B63-2843-4799-95B5-439BD2307D5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB6ECC0E-690B-411E-AA5B-29E693050049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2A3B63-2843-4799-95B5-439BD2307D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2A3B63-2843-4799-95B5-439BD2307D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2A3B63-2843-4799-95B5-439BD2307D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2A3B63-2843-4799-95B5-439BD2307D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
