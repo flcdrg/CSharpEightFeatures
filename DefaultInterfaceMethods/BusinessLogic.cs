@@ -1,24 +1,36 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data; // Candiate for Code Cleanup
+using System.Linq;
 
 namespace CSharpEightFeatures
 {
     class BusinessLogic
     {
-        private readonly IFormatter _formatter;
+        private readonly IFormatter _formatter ;
 
         public BusinessLogic(IFormatter formatter)
         {
             _formatter = formatter;
         }
 
-        public void Process()
+        public IEnumerable<int> GetData()
         {
-            for (int i = 0; i < 5; i++)
+            // Candidate for "Convert a foreach loop to LINQ" refactoring
+            foreach (var j in Enumerable.Range(0, 4))
             {
-                Console.WriteLine(_formatter.Format(i));
+                yield return j;
 
             }
+            yield break;
+        }
 
+        public void Process()
+        {
+            foreach (int i in GetData())
+            {
+                Console.WriteLine(_formatter.Format(i));
+            }
         }
     }
 }

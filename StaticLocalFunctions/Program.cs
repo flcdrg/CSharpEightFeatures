@@ -7,7 +7,7 @@ namespace StaticLocalFunctions
         static void Main(string[] args)
         {
             // https://github.com/dotnet/csharplang/issues/1565
-            void LocalFunction()
+            static void LocalFunction()
             {
                 Console.WriteLine("Hello World!");
             }
